@@ -26,6 +26,10 @@ const respondWithError = function (response, error, callback) {
   response.json( {error: error } );
 }
 
+app.get('/liveness', function(request, response){
+  response.status(200).send('OK');
+});
+
 app.get('/personas', function (request, response) {
   db.collection('personas').find({}).toArray(function(error, result){
     if (error) {
