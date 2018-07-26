@@ -1,0 +1,29 @@
+{
+  "name": "personify-api",
+  "version": "0.0.0",
+  "description": "Red Hat UXD team software user persona creation and management API",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.16",
+    "morgan": "^1.7.0",
+    "multer": "^1.3.0",
+    "uuid": "^3.2.1"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/TheRealJon/personify-api.git"
+  },
+  "author": "Jonathan Jackson <jonjacks@redhat.com>",
+  "bugs": {
+    "url": "http://github.com/TheRealJon/personify-api/issues"
+  },
+  "homepage": "http://github.com/TheRealJon/personify-api"
+}
